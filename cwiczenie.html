@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+<!--
+zew margin
+wewn padding
+!-->
+
+<div class="prostokat">
+    <div class="box1"></div>
+    <div class="box2"></div>
+</div>
+<div class="prostokata"></div>
+
+
+<style>
+    :root{
+    --black: #000;
+    --white: #fff;
+
+
+}
+    .prostokat, .prostokata{
+        width: 400px;
+        height:200px;
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left:10px;
+        margin-bottom: 30px;
+        padding-top: 40px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        border: 1px solid #000;
+    }
+    .prostokat{
+        background-color: var(--black);
+    }
+    .prostokata{
+        background-color: var(--white);
+    }
+
+
+    .box1{
+        position: fixed;
+        left: 30px;
+        top: 15px;
+
+    }
+    .box2{
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+</style>
+
+</body>
+</html>

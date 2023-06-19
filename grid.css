@@ -1,0 +1,43 @@
+/*.container{
+    max-width: 1130px;
+    border: 1px solid #0000;
+    margin: 0 auto;
+    min-height: 600px;
+    display: flex;
+    
+} 
+.colleft,
+.colright{
+    min-height: 600px;
+}
+colleft{
+width:37%;
+}
+colright{
+width:32%;
+}
+*/
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.border {
+    border: 1px solid #000;
+}
+.col-left {
+    width: 62%;
+}
+.col-left, .col-right {
+    min-height: 600px;
+}
+div {
+    display: block;
+}
+
+.col-right {
+    width: 38%;
+}
