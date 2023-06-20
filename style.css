@@ -5,6 +5,10 @@
 
 
 }
+html{
+    font-size: 100%;
+}
+
 .kwadrat{
     --red: #bf1212;
 
@@ -94,7 +98,12 @@ h1{
        text-transform: uppercase;
    
    }
-
+   .orange-bg {
+    background-color: orange;
+    padding: 13px 65px 13px 0;
+    width: 80%;
+    text-align: right;
+  }
 .orange-gb{
     background-color: orange;
     padding: 13px 80px 13px 5px;
@@ -261,6 +270,11 @@ height: 100%;
     margin
 }
 */
+.progres {
+    width: 100%;
+    border: 3px solid var(--orange);
+    height: 23px;
+  }
 .break-line{
     content: '';
     width: 70%;
@@ -282,4 +296,66 @@ height: 100%;
 
 }
 
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) 
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) 
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) 
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) 
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .col-left, .col-right{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        
+    }
+    html{
+        font-size: 80%;
+    }
+    .orange-title-bg{
+        width: 36%;
+        padding-left: 220px;
+    }
+@media only screen and (max-width: 768px){
+        .mobile{
+            display:flex;
+        }
+        .desktop{
+            display: none;
+        }
+        .hero-img-wrapper{
+            align-items: center;
+            margin: 50px 20px;
+        }
+        .mobile-header{
+            text-align: center;
+            background-color: orange;
+            padding: 20px;
+        }
+        .education,
+        .experience{
+            margin: 30px 0;
+        }
+        .orange-bg{
+            width: 100%;
+            padding: 15px 0;
+        }
+    }
+    @media only screen and (min-width: 768px){
+
+    }
+
+
+ }
+
+@import url(rwd.css);
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
